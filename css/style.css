@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    transition: 300ms;
+}
+
+.body{
+    height: 100%;
+    text-align: center;
+}
+
+.titulo_color{
+    padding-top: 10rem;
+    font-size: 5rem;
+    margin-bottom: 3rem;
+}
+
+.elegir_color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.elegir_color--input,.elegir_color--btn{
+    margin:0 2rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+}
+
+.elegir_color--input:hover,.elegir_color--btn:hover{
+    cursor: pointer;
+}
+
+.elegir_color--input{
+    border-radius: 10px;
+    height: 3rem;
+    width: 5rem;
+    border-color: 5px solid #ffffff;
+}
+
+.elegir_color--btn{
+    border-bottom: 2px solid #000000;
+}
+
+.elegir_color--btn:hover{
+    margin-top: -5px;
+    padding-bottom: 5px;
+    transition: 300ms;
+}
+
+.blanco{
+    margin:0 2rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #ffffff;
+    border-bottom: 2px solid #ffffff;
+}
+
+.negro{
+    margin:0 2rem;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    color: #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.negro:hover,.blanco:hover{
+    cursor: pointer;
+    margin-top: -5px;
+    padding-bottom: 5px;
+    transition: 300ms;
+}
